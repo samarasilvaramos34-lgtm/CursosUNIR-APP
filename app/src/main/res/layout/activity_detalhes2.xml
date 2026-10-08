@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+
+            android:scaleType="centerCrop"
+            android:contentDescription="Imagem do curso" />
+
+        <TextView
+            android:id="@+id/textNomeDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Ciência da Computação"
+            android:textColor="@color/azul_escuro"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textCampusDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Campus: Porto Velho"
+            android:textColor="@color/texto_principal"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textGrauDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Grau: Bacharelado"
+            android:textColor="@color/texto_principal"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textTurnoDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Turno: Integral"
+            android:textColor="@color/texto_principal"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Sobre o curso"
+            android:textColor="@color/azul_escuro"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDescricaoDetalhes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="3dp"
+            android:text="Descrição do curso."
+            android:textColor="@color/texto_secundario"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/buttonPagina"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="26dp"
+            android:text="ACESSAR PÁGINA DO CURSO"
+            android:textColor="@color/branco"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonCompartilhar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+
+            android:text="COMPARTILHAR CURSO"
+            android:textColor="@color/azul_principal"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
